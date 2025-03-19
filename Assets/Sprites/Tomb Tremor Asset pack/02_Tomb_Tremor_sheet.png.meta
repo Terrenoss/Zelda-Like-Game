@@ -1,0 +1,893 @@
+fileFormatVersion: 2
+guid: 367866d5e1be3c7438e0f241532c6c4b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4965310034586249745
+    second: 02_Tomb_Tremor_sheet_0
+  - first:
+      213: 2987608228964942993
+    second: 02_Tomb_Tremor_sheet_1
+  - first:
+      213: 2925289330309073938
+    second: 02_Tomb_Tremor_sheet_2
+  - first:
+      213: 7993433443986884894
+    second: 02_Tomb_Tremor_sheet_3
+  - first:
+      213: -6037835531188258247
+    second: 02_Tomb_Tremor_sheet_4
+  - first:
+      213: -6400442641667263501
+    second: 02_Tomb_Tremor_sheet_5
+  - first:
+      213: -1128034477257507870
+    second: 02_Tomb_Tremor_sheet_6
+  - first:
+      213: -2500611929307024219
+    second: 02_Tomb_Tremor_sheet_7
+  - first:
+      213: 6335643168594799551
+    second: 02_Tomb_Tremor_sheet_8
+  - first:
+      213: 8954230171073399821
+    second: 02_Tomb_Tremor_sheet_9
+  - first:
+      213: -887158146601456398
+    second: 02_Tomb_Tremor_sheet_10
+  - first:
+      213: -8135816528625377792
+    second: 02_Tomb_Tremor_sheet_11
+  - first:
+      213: -8216291930861115890
+    second: 02_Tomb_Tremor_sheet_12
+  - first:
+      213: -1209905748051980427
+    second: 02_Tomb_Tremor_sheet_13
+  - first:
+      213: 7506012803651609685
+    second: 02_Tomb_Tremor_sheet_14
+  - first:
+      213: -202430540976397385
+    second: 02_Tomb_Tremor_sheet_15
+  - first:
+      213: 3311932698403341069
+    second: 02_Tomb_Tremor_sheet_16
+  - first:
+      213: 5552641294316803679
+    second: 02_Tomb_Tremor_sheet_17
+  - first:
+      213: -6442304803687836266
+    second: 02_Tomb_Tremor_sheet_18
+  - first:
+      213: -1108343208614451499
+    second: 02_Tomb_Tremor_sheet_19
+  - first:
+      213: -8878744135603245291
+    second: 02_Tomb_Tremor_sheet_20
+  - first:
+      213: -3610413439409698094
+    second: 02_Tomb_Tremor_sheet_21
+  - first:
+      213: -8785479946574525041
+    second: 02_Tomb_Tremor_sheet_22
+  - first:
+      213: 6182487203180446479
+    second: 02_Tomb_Tremor_sheet_23
+  - first:
+      213: 4893997728718060501
+    second: 02_Tomb_Tremor_sheet_24
+  - first:
+      213: -6845591067476232213
+    second: 02_Tomb_Tremor_sheet_25
+  - first:
+      213: -3328094285494749600
+    second: 02_Tomb_Tremor_sheet_26
+  - first:
+      213: -2772856090038187870
+    second: 02_Tomb_Tremor_sheet_27
+  - first:
+      213: -1773807422933704133
+    second: 02_Tomb_Tremor_sheet_28
+  - first:
+      213: 869969003977893399
+    second: 02_Tomb_Tremor_sheet_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 15
+        width: 135
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5ddc4b4dca71bb0800000000000000
+      internalID: -4965310034586249745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 176
+        width: 97
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1944d7feadd167920800000000000000
+      internalID: 2987608228964942993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 226
+        width: 97
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c0056a527b89820800000000000000
+      internalID: 2925289330309073938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 234
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19c094cd516eee60800000000000000
+      internalID: 7993433443986884894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 215
+        width: 69
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93aba4ff29c453ca0800000000000000
+      internalID: -6037835531188258247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 234
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3f822145f0d27a0800000000000000
+      internalID: -6400442641667263501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 236
+        width: 81
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb3ca89e9a6850f0800000000000000
+      internalID: -1128034477257507870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 152
+        width: 135
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4fc88f2ba0c4dd0800000000000000
+      internalID: -2500611929307024219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 161
+        width: 97
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb29b7e4e9bce750800000000000000
+      internalID: 6335643168594799551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 167
+        width: 75
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c4ae726e0d34c70800000000000000
+      internalID: 8954230171073399821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 181
+        width: 83
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fce934bd5e20b3f0800000000000000
+      internalID: -887158146601456398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 88
+        width: 89
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e588df8f5c71f80800000000000000
+      internalID: -8135816528625377792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 123
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e066d1a450ed9fd80800000000000000
+      internalID: -8216291930861115890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 123
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f88abe12d853fe0800000000000000
+      internalID: -1209905748051980427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 123
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554203950e6ba2860800000000000000
+      internalID: 7506012803651609685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 123
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b36969de72d03df0800000000000000
+      internalID: -202430540976397385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 101
+        width: 87
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d030558ed3956fd20800000000000000
+      internalID: 3311932698403341069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 126
+        width: 81
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f561be886d1fe0d40800000000000000
+      internalID: 5552641294316803679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 15
+        width: 135
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695d461f9e55896a0800000000000000
+      internalID: -6442304803687836266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 86
+        width: 89
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6a15959bf5e90f0800000000000000
+      internalID: -1108343208614451499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 71
+        width: 79
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f29c1104d58c480800000000000000
+      internalID: -8878744135603245291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 18
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da40bb0b1c35edc0800000000000000
+      internalID: -3610413439409698094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 46
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d8b1b3984b31680800000000000000
+      internalID: -8785479946574525041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 46
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0308f5ea5b9cc550800000000000000
+      internalID: 6182487203180446479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 46
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbfec73109fae340800000000000000
+      internalID: 4893997728718060501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 42
+        width: 77
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7fd7191339ff0a0800000000000000
+      internalID: -6845591067476232213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 47
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066f31e51eb30d1d0800000000000000
+      internalID: -3328094285494749600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 31
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8cefbc316d489d0800000000000000
+      internalID: -2772856090038187870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 22
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32e5100c8b2267e0800000000000000
+      internalID: -1773807422933704133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 02_Tomb_Tremor_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 19
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 716e3b72330c21c00800000000000000
+      internalID: 869969003977893399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
