@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      box-post-it-on-itch_0: -1942552410379755476
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -535,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Christmas_Snowman_G_Idle_0: -6599442409972848731
+      Christmas_Snowman_G_Idle_1: 2951006756286468094
+      Christmas_Snowman_G_Idle_10: 1510432423696765906
+      Christmas_Snowman_G_Idle_11: 8627150271048359280
+      Christmas_Snowman_G_Idle_12: 694783883575834145
+      Christmas_Snowman_G_Idle_13: 3686496706496545760
+      Christmas_Snowman_G_Idle_14: -9036427358106576069
+      Christmas_Snowman_G_Idle_15: -3106096400748387640
+      Christmas_Snowman_G_Idle_2: 7916833749018995251
+      Christmas_Snowman_G_Idle_3: -1649547939731020913
+      Christmas_Snowman_G_Idle_4: -5138865116057909751
+      Christmas_Snowman_G_Idle_5: 7029548849218015341
+      Christmas_Snowman_G_Idle_6: 1131334560493722883
+      Christmas_Snowman_G_Idle_7: 3521202759370243729
+      Christmas_Snowman_G_Idle_8: 4089704407699260802
+      Christmas_Snowman_G_Idle_9: 9047957233105817550
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

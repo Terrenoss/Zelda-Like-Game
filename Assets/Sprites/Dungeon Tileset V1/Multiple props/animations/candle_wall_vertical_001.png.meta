@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      candle_wall_vertical_001_0: 6193720410547818449
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

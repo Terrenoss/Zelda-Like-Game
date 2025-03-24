@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boar_Move_0: -2046351769867265645
+      Boar_Move_1: 1989195488648135455
+      Boar_Move_10: -4365190523149260287
+      Boar_Move_11: -8390542559131497082
+      Boar_Move_12: -6761037188953323945
+      Boar_Move_13: 8691764910495722783
+      Boar_Move_14: -1790884385099460701
+      Boar_Move_15: -2612382133104990420
+      Boar_Move_16: 2668720284296161976
+      Boar_Move_17: -8219944334313705616
+      Boar_Move_18: 5189279234402953429
+      Boar_Move_19: 7191886019387507457
+      Boar_Move_2: -1690161702431963102
+      Boar_Move_20: -8186151456476856915
+      Boar_Move_21: 5744003384817328626
+      Boar_Move_22: 7050692232869684258
+      Boar_Move_23: -7034966203986521208
+      Boar_Move_3: -7830762942201370764
+      Boar_Move_4: -1226720722412735205
+      Boar_Move_5: -60016695891896614
+      Boar_Move_6: 4375454948820114944
+      Boar_Move_7: -1715731259187988278
+      Boar_Move_8: 1283100926612304377
+      Boar_Move_9: -9097764044504072995
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pickaxe_debris_001_0: -4335844750536244703
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

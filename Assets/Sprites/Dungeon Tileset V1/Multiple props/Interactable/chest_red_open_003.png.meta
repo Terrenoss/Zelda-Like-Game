@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chest_red_open_003_0: 114965114637972232
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

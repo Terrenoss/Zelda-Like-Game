@@ -885,7 +885,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      02_Tomb_Tremor_sheet_0: -4965310034586249745
+      02_Tomb_Tremor_sheet_1: 2987608228964942993
+      02_Tomb_Tremor_sheet_10: -887158146601456398
+      02_Tomb_Tremor_sheet_11: -8135816528625377792
+      02_Tomb_Tremor_sheet_12: -8216291930861115890
+      02_Tomb_Tremor_sheet_13: -1209905748051980427
+      02_Tomb_Tremor_sheet_14: 7506012803651609685
+      02_Tomb_Tremor_sheet_15: -202430540976397385
+      02_Tomb_Tremor_sheet_16: 3311932698403341069
+      02_Tomb_Tremor_sheet_17: 5552641294316803679
+      02_Tomb_Tremor_sheet_18: -6442304803687836266
+      02_Tomb_Tremor_sheet_19: -1108343208614451499
+      02_Tomb_Tremor_sheet_2: 2925289330309073938
+      02_Tomb_Tremor_sheet_20: -8878744135603245291
+      02_Tomb_Tremor_sheet_21: -3610413439409698094
+      02_Tomb_Tremor_sheet_22: -8785479946574525041
+      02_Tomb_Tremor_sheet_23: 6182487203180446479
+      02_Tomb_Tremor_sheet_24: 4893997728718060501
+      02_Tomb_Tremor_sheet_25: -6845591067476232213
+      02_Tomb_Tremor_sheet_26: -3328094285494749600
+      02_Tomb_Tremor_sheet_27: -2772856090038187870
+      02_Tomb_Tremor_sheet_28: -1773807422933704133
+      02_Tomb_Tremor_sheet_29: 869969003977893399
+      02_Tomb_Tremor_sheet_3: 7993433443986884894
+      02_Tomb_Tremor_sheet_4: -6037835531188258247
+      02_Tomb_Tremor_sheet_5: -6400442641667263501
+      02_Tomb_Tremor_sheet_6: -1128034477257507870
+      02_Tomb_Tremor_sheet_7: -2500611929307024219
+      02_Tomb_Tremor_sheet_8: 6335643168594799551
+      02_Tomb_Tremor_sheet_9: 8954230171073399821
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      door_vertical_north_right_006_0: 2094300597500919040
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

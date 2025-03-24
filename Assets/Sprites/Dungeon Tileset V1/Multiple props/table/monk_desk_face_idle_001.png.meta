@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      monk_desk_face_idle_001_0: 6967166305792759010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

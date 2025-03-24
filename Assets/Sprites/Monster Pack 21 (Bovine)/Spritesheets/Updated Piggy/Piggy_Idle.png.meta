@@ -535,7 +535,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Piggy_Idle_0: -8963979021138270722
+      Piggy_Idle_1: 4505054870688151882
+      Piggy_Idle_10: -3846248547486592127
+      Piggy_Idle_11: 138462317803956992
+      Piggy_Idle_12: -6300499077682088869
+      Piggy_Idle_13: -6408062361995940100
+      Piggy_Idle_14: -7457545924694315500
+      Piggy_Idle_15: 4336967316184037195
+      Piggy_Idle_2: -2452866242570718375
+      Piggy_Idle_3: -7755096147749803424
+      Piggy_Idle_4: -2627783331568543372
+      Piggy_Idle_5: -1021595831677889364
+      Piggy_Idle_6: 7645465741114233332
+      Piggy_Idle_7: 6842622795728578264
+      Piggy_Idle_8: 466558373992722071
+      Piggy_Idle_9: 3922918869461303833
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

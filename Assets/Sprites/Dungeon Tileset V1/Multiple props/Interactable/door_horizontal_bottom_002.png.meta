@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      door_horizontal_bottom_002_0: 2867921296944575753
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

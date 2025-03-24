@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      locked_door_north_shine_005_0: 8089118469836095923
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

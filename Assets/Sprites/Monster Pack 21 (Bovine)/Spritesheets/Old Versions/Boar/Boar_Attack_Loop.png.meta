@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Boar_Attack_Loop_0: -1898532108660867148
+      Boar_Attack_Loop_1: -6554631523143723322
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

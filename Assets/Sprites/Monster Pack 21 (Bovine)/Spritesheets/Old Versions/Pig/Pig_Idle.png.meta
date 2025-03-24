@@ -235,7 +235,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Pig_Idle_0: 7565204381512348054
+      Pig_Idle_1: -9206394693627218127
+      Pig_Idle_2: 6135128913384164990
+      Pig_Idle_3: 9053823932351245017
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

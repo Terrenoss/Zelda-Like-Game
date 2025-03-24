@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      iron_wood_vertical_south_left_001_0: -6273060800806737687
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

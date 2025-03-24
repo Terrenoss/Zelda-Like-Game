@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      truth_chest_idle_001_0: 1916814810873710545
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

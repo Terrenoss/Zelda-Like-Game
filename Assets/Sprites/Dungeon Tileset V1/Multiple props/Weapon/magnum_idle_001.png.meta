@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      magnum_idle_001_0: -1348544361941077654
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

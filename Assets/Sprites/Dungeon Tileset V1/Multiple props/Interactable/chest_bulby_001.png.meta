@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      chest_bulby_001_0: -2840450034324273607
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

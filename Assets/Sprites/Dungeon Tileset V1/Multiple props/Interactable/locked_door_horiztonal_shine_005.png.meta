@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      locked_door_horiztonal_shine_005_0: -100616707052076434
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

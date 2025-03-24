@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      candleabra_vertical_003_0: -9058710746174846038
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

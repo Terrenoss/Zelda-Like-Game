@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      barrel_wood_shard_002_0: 2314635582031020529
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

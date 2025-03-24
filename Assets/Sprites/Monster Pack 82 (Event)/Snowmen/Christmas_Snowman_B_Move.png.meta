@@ -735,7 +735,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Christmas_Snowman_B_Move_0: 761399686939054595
+      Christmas_Snowman_B_Move_1: -2435766715793938365
+      Christmas_Snowman_B_Move_10: -5159401609023884366
+      Christmas_Snowman_B_Move_11: -8409885895759250829
+      Christmas_Snowman_B_Move_12: -2260937056060748164
+      Christmas_Snowman_B_Move_13: -3895261301033696553
+      Christmas_Snowman_B_Move_14: -6937200896220727254
+      Christmas_Snowman_B_Move_15: -6788555773600627988
+      Christmas_Snowman_B_Move_16: 9093805058365306966
+      Christmas_Snowman_B_Move_17: 5537065652964963345
+      Christmas_Snowman_B_Move_18: 7188187169849269728
+      Christmas_Snowman_B_Move_19: 6420485781470191492
+      Christmas_Snowman_B_Move_2: -4354751503142345551
+      Christmas_Snowman_B_Move_20: -3675927118993660465
+      Christmas_Snowman_B_Move_21: 8749484388993460880
+      Christmas_Snowman_B_Move_22: -1901829040967113170
+      Christmas_Snowman_B_Move_23: -7736465812400172326
+      Christmas_Snowman_B_Move_3: 8213433734909966224
+      Christmas_Snowman_B_Move_4: 2768390885527440156
+      Christmas_Snowman_B_Move_5: -2777909289427901807
+      Christmas_Snowman_B_Move_6: 2437781103855767522
+      Christmas_Snowman_B_Move_7: 7316805847527784116
+      Christmas_Snowman_B_Move_8: 1488132772064058626
+      Christmas_Snowman_B_Move_9: -907552614556355680
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

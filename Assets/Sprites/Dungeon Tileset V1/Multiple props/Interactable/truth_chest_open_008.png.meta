@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      truth_chest_open_008_0: 5298621237807247703
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

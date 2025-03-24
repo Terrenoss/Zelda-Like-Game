@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      wine_cabinet_idle_001_0: 4500162688732950781
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

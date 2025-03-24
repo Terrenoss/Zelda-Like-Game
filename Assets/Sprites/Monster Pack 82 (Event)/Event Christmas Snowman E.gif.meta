@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Event Christmas Snowman E_0: -990013017916445380
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

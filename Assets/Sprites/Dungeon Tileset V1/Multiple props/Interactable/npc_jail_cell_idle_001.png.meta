@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      npc_jail_cell_idle_001_0: 4457745526918661506
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

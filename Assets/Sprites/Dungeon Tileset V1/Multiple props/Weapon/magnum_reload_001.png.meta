@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      magnum_reload_001_0: 3678663920846569670
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      03_Tomb_Tremor_sheet_0: 2510819516307121428
+      03_Tomb_Tremor_sheet_1: -9164393928245088265
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

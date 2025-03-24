@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      barrel_wood_explode_002_0: 6183211371580629714
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

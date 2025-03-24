@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tan_pot_tall_idle_001_0: -4466350238549370916
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
