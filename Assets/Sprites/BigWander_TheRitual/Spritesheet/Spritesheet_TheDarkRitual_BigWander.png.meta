@@ -340,6 +340,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -2072,7 +2085,85 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Spritesheet_TheDarkRitual_BigWander_0: -1520791920264646395
+      Spritesheet_TheDarkRitual_BigWander_1: 217878927799922229
+      Spritesheet_TheDarkRitual_BigWander_10: 7810876405296571851
+      Spritesheet_TheDarkRitual_BigWander_11: 6617021903070114848
+      Spritesheet_TheDarkRitual_BigWander_12: 6116525514240122234
+      Spritesheet_TheDarkRitual_BigWander_13: -5683174763596746891
+      Spritesheet_TheDarkRitual_BigWander_14: -7996642880349252265
+      Spritesheet_TheDarkRitual_BigWander_15: 4530678211508388187
+      Spritesheet_TheDarkRitual_BigWander_16: 3722688469902789703
+      Spritesheet_TheDarkRitual_BigWander_17: 4361977897939024386
+      Spritesheet_TheDarkRitual_BigWander_18: -6811346877861791073
+      Spritesheet_TheDarkRitual_BigWander_19: -3114188642846971179
+      Spritesheet_TheDarkRitual_BigWander_2: 2689048667205201879
+      Spritesheet_TheDarkRitual_BigWander_20: -9179975753006150122
+      Spritesheet_TheDarkRitual_BigWander_21: -76339362290827405
+      Spritesheet_TheDarkRitual_BigWander_22: -4677523532973899598
+      Spritesheet_TheDarkRitual_BigWander_23: -8941042393659937184
+      Spritesheet_TheDarkRitual_BigWander_24: -4736910050356824994
+      Spritesheet_TheDarkRitual_BigWander_25: -8756168614773596261
+      Spritesheet_TheDarkRitual_BigWander_26: 8050936742862883156
+      Spritesheet_TheDarkRitual_BigWander_27: 8974105979428634302
+      Spritesheet_TheDarkRitual_BigWander_28: 1860232838876794884
+      Spritesheet_TheDarkRitual_BigWander_29: 5561529530284026834
+      Spritesheet_TheDarkRitual_BigWander_3: -2113359099722831100
+      Spritesheet_TheDarkRitual_BigWander_30: -6133062151913555306
+      Spritesheet_TheDarkRitual_BigWander_31: 7117671277794745314
+      Spritesheet_TheDarkRitual_BigWander_32: 8441705164848705762
+      Spritesheet_TheDarkRitual_BigWander_33: -4773006238815314788
+      Spritesheet_TheDarkRitual_BigWander_34: 7193452507877763851
+      Spritesheet_TheDarkRitual_BigWander_35: -2753942441526210877
+      Spritesheet_TheDarkRitual_BigWander_36: 9072459363722226978
+      Spritesheet_TheDarkRitual_BigWander_37: -502005545884362967
+      Spritesheet_TheDarkRitual_BigWander_38: -1877687605648626798
+      Spritesheet_TheDarkRitual_BigWander_39: 7687241494555668161
+      Spritesheet_TheDarkRitual_BigWander_4: 7399374816447580720
+      Spritesheet_TheDarkRitual_BigWander_40: 8104721739424481045
+      Spritesheet_TheDarkRitual_BigWander_41: 3992435392634341292
+      Spritesheet_TheDarkRitual_BigWander_42: -7889424064471543273
+      Spritesheet_TheDarkRitual_BigWander_43: -2997745504064567625
+      Spritesheet_TheDarkRitual_BigWander_44: -3758018056586027328
+      Spritesheet_TheDarkRitual_BigWander_45: -5774114244917839171
+      Spritesheet_TheDarkRitual_BigWander_46: -4642574208604829216
+      Spritesheet_TheDarkRitual_BigWander_47: 2800187047257417983
+      Spritesheet_TheDarkRitual_BigWander_48: -6090756961689659351
+      Spritesheet_TheDarkRitual_BigWander_49: 2973073405375388793
+      Spritesheet_TheDarkRitual_BigWander_5: -267227625944034396
+      Spritesheet_TheDarkRitual_BigWander_50: -489164815061673238
+      Spritesheet_TheDarkRitual_BigWander_51: 4229345379459572513
+      Spritesheet_TheDarkRitual_BigWander_52: -2517911948893531963
+      Spritesheet_TheDarkRitual_BigWander_53: -1931692267140514717
+      Spritesheet_TheDarkRitual_BigWander_54: 6634474753912047221
+      Spritesheet_TheDarkRitual_BigWander_55: -7222232100871639977
+      Spritesheet_TheDarkRitual_BigWander_56: 1744323585142554736
+      Spritesheet_TheDarkRitual_BigWander_57: 8991523581151581934
+      Spritesheet_TheDarkRitual_BigWander_58: -8992015486842139136
+      Spritesheet_TheDarkRitual_BigWander_59: -1596952281160404899
+      Spritesheet_TheDarkRitual_BigWander_6: -2461882150450253011
+      Spritesheet_TheDarkRitual_BigWander_60: 3144897058472518214
+      Spritesheet_TheDarkRitual_BigWander_61: -7606882596120440846
+      Spritesheet_TheDarkRitual_BigWander_62: 7519809829430239626
+      Spritesheet_TheDarkRitual_BigWander_63: -6194255884763246339
+      Spritesheet_TheDarkRitual_BigWander_64: 1299220979704961195
+      Spritesheet_TheDarkRitual_BigWander_65: 4000085888245588709
+      Spritesheet_TheDarkRitual_BigWander_66: -4255182125337989821
+      Spritesheet_TheDarkRitual_BigWander_67: 1810815979305695677
+      Spritesheet_TheDarkRitual_BigWander_68: 2669109808809527027
+      Spritesheet_TheDarkRitual_BigWander_69: 7386933999841201718
+      Spritesheet_TheDarkRitual_BigWander_7: -3113513788547770014
+      Spritesheet_TheDarkRitual_BigWander_70: 4876946739882568182
+      Spritesheet_TheDarkRitual_BigWander_71: 5995713667215346970
+      Spritesheet_TheDarkRitual_BigWander_72: 5977876755200745853
+      Spritesheet_TheDarkRitual_BigWander_73: 727494713744592435
+      Spritesheet_TheDarkRitual_BigWander_74: 3610971649050074428
+      Spritesheet_TheDarkRitual_BigWander_75: -2219105564481131784
+      Spritesheet_TheDarkRitual_BigWander_76: -7337234432924186610
+      Spritesheet_TheDarkRitual_BigWander_77: 5112305458952080719
+      Spritesheet_TheDarkRitual_BigWander_8: -8694770121201913032
+      Spritesheet_TheDarkRitual_BigWander_9: 4811106320768545318
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
