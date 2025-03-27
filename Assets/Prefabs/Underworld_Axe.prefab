@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Underworld_Axe
       objectReference: {fileID: 0}
+    - target: {fileID: 2117401253129582595, guid: c051b7f5f45d9d540a5b88954469c214, type: 3}
+      propertyPath: Name
+      value: Underworld Axe
+      objectReference: {fileID: 0}
     - target: {fileID: 2762357055113199484, guid: c051b7f5f45d9d540a5b88954469c214, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -96,6 +100,22 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -8963361920358601687, guid: 7a10cad97bad1f3488fac5f2eb28c68e, type: 3}
+    - target: {fileID: 8109990079985146422, guid: c051b7f5f45d9d540a5b88954469c214, type: 3}
+      propertyPath: m_Size.x
+      value: 0.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109990079985146422, guid: c051b7f5f45d9d540a5b88954469c214, type: 3}
+      propertyPath: m_Size.y
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 8109990079985146422, guid: c051b7f5f45d9d540a5b88954469c214, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8963361920358601687, guid: 7a10cad97bad1f3488fac5f2eb28c68e, type: 3}
+    - target: {fileID: 8109990079985146422, guid: c051b7f5f45d9d540a5b88954469c214, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

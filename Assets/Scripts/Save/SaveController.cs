@@ -6,10 +6,12 @@ public class SaveController : MonoBehaviour
 {
     private string saveLocation;
     private InventoryController inventoryController;
+    private HotBarController hotbarController;
     void Start()
     {
         saveLocation = Path.Combine(Application.persistentDataPath, "saveData.json");
         inventoryController = FindObjectOfType<InventoryController>();
+        hotbarController = FindObjectOfType<HotBarController>();
         
         
         LoadGame();
@@ -21,7 +23,8 @@ public class SaveController : MonoBehaviour
         {
             playerPosition = GameObject.FindGameObjectWithTag("Player").transform.position,
             mapBoundary = GameObject.FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D.gameObject.name,
-            inventorySaveData = inventoryController.GetInventoryItems()
+            inventorySaveData = inventoryController.GetInventoryItems(),
+            hotbarSaveData = hotbarController.GetHotBarItems()
         };
         
         File.WriteAllText(saveLocation, JsonUtility.ToJson(data));
@@ -38,6 +41,8 @@ public class SaveController : MonoBehaviour
             GameObject.FindObjectOfType<CinemachineConfiner>().m_BoundingShape2D = GameObject.Find(saveData.mapBoundary).GetComponent<PolygonCollider2D>();
             
             inventoryController.LoadInventoryItems(saveData.inventorySaveData);
+            
+            hotbarController.LoadHotbarItems(saveData.hotbarSaveData);
         }
         else
         {
