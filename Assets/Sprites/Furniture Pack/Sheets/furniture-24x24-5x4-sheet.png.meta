@@ -485,7 +485,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      furniture-24x24-5x4-sheet_0: 3600270939717255991
+      furniture-24x24-5x4-sheet_1: -4221734308777243506
+      furniture-24x24-5x4-sheet_10: 1385272632488264903
+      furniture-24x24-5x4-sheet_11: -5350848940833163462
+      furniture-24x24-5x4-sheet_12: -3218448313562763201
+      furniture-24x24-5x4-sheet_13: 3489699743356552951
+      furniture-24x24-5x4-sheet_2: -2021119180296152205
+      furniture-24x24-5x4-sheet_3: 1370342081598804381
+      furniture-24x24-5x4-sheet_4: 2451420703509660168
+      furniture-24x24-5x4-sheet_5: 8941727980951644203
+      furniture-24x24-5x4-sheet_6: -8565900843335951664
+      furniture-24x24-5x4-sheet_7: 9060946648489028373
+      furniture-24x24-5x4-sheet_8: 6143208096532310547
+      furniture-24x24-5x4-sheet_9: 3667099207247917598
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

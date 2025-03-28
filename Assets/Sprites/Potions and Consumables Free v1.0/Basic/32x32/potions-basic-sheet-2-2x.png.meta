@@ -1135,7 +1135,47 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      potions-basic-sheet-2-2x_0: 863786273841097257
+      potions-basic-sheet-2-2x_1: 690149130923154538
+      potions-basic-sheet-2-2x_10: 7258828157611045565
+      potions-basic-sheet-2-2x_11: -4610456692244396821
+      potions-basic-sheet-2-2x_12: -8137761305124417711
+      potions-basic-sheet-2-2x_13: -4048588765651093254
+      potions-basic-sheet-2-2x_14: 5037534101760723609
+      potions-basic-sheet-2-2x_15: -6720304349292972957
+      potions-basic-sheet-2-2x_16: -6323685545472768014
+      potions-basic-sheet-2-2x_17: -5084022309163314219
+      potions-basic-sheet-2-2x_18: -1490987268479999754
+      potions-basic-sheet-2-2x_19: -3192293318609605216
+      potions-basic-sheet-2-2x_2: 8103846383197244262
+      potions-basic-sheet-2-2x_20: 1808444124385879713
+      potions-basic-sheet-2-2x_21: 8517361137361401600
+      potions-basic-sheet-2-2x_22: -8445376870738417468
+      potions-basic-sheet-2-2x_23: -3138414139087015778
+      potions-basic-sheet-2-2x_24: 166464412238062303
+      potions-basic-sheet-2-2x_25: 5367624753397187401
+      potions-basic-sheet-2-2x_26: 463620652858473405
+      potions-basic-sheet-2-2x_27: 3560291706689557595
+      potions-basic-sheet-2-2x_28: 6901336545319199439
+      potions-basic-sheet-2-2x_29: 1937044508953972701
+      potions-basic-sheet-2-2x_3: -1503259866174146347
+      potions-basic-sheet-2-2x_30: 8504583660308893276
+      potions-basic-sheet-2-2x_31: -6743005787436019341
+      potions-basic-sheet-2-2x_32: -5651600411441914084
+      potions-basic-sheet-2-2x_33: -763760768968440646
+      potions-basic-sheet-2-2x_34: -6632549932495607086
+      potions-basic-sheet-2-2x_35: 3558787355575391427
+      potions-basic-sheet-2-2x_36: -9140786273800579136
+      potions-basic-sheet-2-2x_37: -5315409014148385420
+      potions-basic-sheet-2-2x_38: -5158326184794976786
+      potions-basic-sheet-2-2x_39: -2138188997233614998
+      potions-basic-sheet-2-2x_4: 698862484213519608
+      potions-basic-sheet-2-2x_5: -5093691506576498157
+      potions-basic-sheet-2-2x_6: -4896709123479479588
+      potions-basic-sheet-2-2x_7: 6775736593818518211
+      potions-basic-sheet-2-2x_8: 3067310882801384221
+      potions-basic-sheet-2-2x_9: -580456353098510386
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
