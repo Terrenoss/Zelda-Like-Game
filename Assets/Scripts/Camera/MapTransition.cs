@@ -33,19 +33,15 @@ public class MapTransition : MonoBehaviour
         {
             case Direction.Up:
                 newPos.y += additiveValue;
-                direction = Direction.Down;
                 break;
             case Direction.Down:
                 newPos.y -= additiveValue;
-                direction = Direction.Up;
                 break;
             case Direction.Left:
                 newPos.x += additiveValue;
-                direction = Direction.Left;
                 break;
             case Direction.Right:
                 newPos.x -= additiveValue;
-                direction = Direction.Right;
                 break;
             default:
                 throw new ArgumentOutOfRangeException();
