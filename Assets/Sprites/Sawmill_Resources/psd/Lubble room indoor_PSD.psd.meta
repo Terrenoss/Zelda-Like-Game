@@ -1,0 +1,1043 @@
+fileFormatVersion: 2
+guid: 888d225350dddba4390117afbae7fce4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7998805899199403379
+    second: Lubble room indoor_PSD_0
+  - first:
+      213: 9145510810162180934
+    second: Lubble room indoor_PSD_1
+  - first:
+      213: -2763806621389694289
+    second: Lubble room indoor_PSD_2
+  - first:
+      213: 1998205234759583376
+    second: Lubble room indoor_PSD_3
+  - first:
+      213: 7542853893183127859
+    second: Lubble room indoor_PSD_4
+  - first:
+      213: -3606177249497780041
+    second: Lubble room indoor_PSD_5
+  - first:
+      213: -4541057347752470398
+    second: Lubble room indoor_PSD_6
+  - first:
+      213: -3821585781008266240
+    second: Lubble room indoor_PSD_7
+  - first:
+      213: -5122468486458920474
+    second: Lubble room indoor_PSD_8
+  - first:
+      213: 5700455259864013233
+    second: Lubble room indoor_PSD_9
+  - first:
+      213: -147240739741247260
+    second: Lubble room indoor_PSD_10
+  - first:
+      213: 9042114531425506985
+    second: Lubble room indoor_PSD_11
+  - first:
+      213: -5545995070231068759
+    second: Lubble room indoor_PSD_12
+  - first:
+      213: -5624389587374735967
+    second: Lubble room indoor_PSD_13
+  - first:
+      213: -8507376628675606352
+    second: Lubble room indoor_PSD_14
+  - first:
+      213: -475862662642881323
+    second: Lubble room indoor_PSD_15
+  - first:
+      213: 6980171040408587124
+    second: Lubble room indoor_PSD_16
+  - first:
+      213: -583646683863401277
+    second: Lubble room indoor_PSD_17
+  - first:
+      213: -611030995112529253
+    second: Lubble room indoor_PSD_18
+  - first:
+      213: 5790206780671841659
+    second: Lubble room indoor_PSD_19
+  - first:
+      213: 360364054179103032
+    second: Lubble room indoor_PSD_20
+  - first:
+      213: 220792689462275745
+    second: Lubble room indoor_PSD_21
+  - first:
+      213: 7948133764719244187
+    second: Lubble room indoor_PSD_22
+  - first:
+      213: -2583253375201045815
+    second: Lubble room indoor_PSD_23
+  - first:
+      213: 2246698526409559826
+    second: Lubble room indoor_PSD_24
+  - first:
+      213: 3947831531886505743
+    second: Lubble room indoor_PSD_25
+  - first:
+      213: 1602748271936518522
+    second: Lubble room indoor_PSD_26
+  - first:
+      213: -2704636863794051097
+    second: Lubble room indoor_PSD_27
+  - first:
+      213: -8104406371306870229
+    second: Lubble room indoor_PSD_28
+  - first:
+      213: 3238890646997994488
+    second: Lubble room indoor_PSD_29
+  - first:
+      213: -8034111928582124848
+    second: Lubble room indoor_PSD_30
+  - first:
+      213: -6040520183430443124
+    second: Lubble room indoor_PSD_31
+  - first:
+      213: -5809537669100223058
+    second: Lubble room indoor_PSD_32
+  - first:
+      213: 5942444390482054606
+    second: Lubble room indoor_PSD_33
+  - first:
+      213: 9168949471849935073
+    second: Lubble room indoor_PSD_34
+  - first:
+      213: 4560114411707269196
+    second: Lubble room indoor_PSD_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 207
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8aabe60a688ef090800000000000000
+      internalID: -7998805899199403379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 207
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643363970a16bee70800000000000000
+      internalID: 9145510810162180934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 207
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faad138658cf4a9d0800000000000000
+      internalID: -2763806621389694289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 207
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096cb26f21d0bbb10800000000000000
+      internalID: 1998205234759583376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_4
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 207
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3314adfe6a99da860800000000000000
+      internalID: 7542853893183127859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_5
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 207
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0f69ed5e844fdc0800000000000000
+      internalID: -3606177249497780041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 207
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288598ad66ceaf0c0800000000000000
+      internalID: -4541057347752470398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 207
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c8154dafff6fac0800000000000000
+      internalID: -3821585781008266240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_8
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 183
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e1bb733d0659e8b0800000000000000
+      internalID: -5122468486458920474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_9
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 183
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b993364bd51c1f40800000000000000
+      internalID: 5700455259864013233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_10
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 183
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8d14bc355e4fdf0800000000000000
+      internalID: -147240739741247260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_11
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 183
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6d308524b0c7d70800000000000000
+      internalID: 9042114531425506985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_12
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 159
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af3fc81edaa803b0800000000000000
+      internalID: -5545995070231068759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 159
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad7f16387722f1b0800000000000000
+      internalID: -5624389587374735967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_14
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 143
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8845db70abfe980800000000000000
+      internalID: -8507376628675606352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_15
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 127
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcac47fd656569f0800000000000000
+      internalID: -475862662642881323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_16
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 159
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bc507249c8ed060800000000000000
+      internalID: 6980171040408587124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_17
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 127
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccbcfdee6876e7f0800000000000000
+      internalID: -583646683863401277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_18
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 95
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92709d1c8e2587f0800000000000000
+      internalID: -611030995112529253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_19
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 95
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75d002a362fa5050800000000000000
+      internalID: 5790206780671841659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_20
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 111
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8314a2fa235400500800000000000000
+      internalID: 360364054179103032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_21
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 111
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aee66008c9601300800000000000000
+      internalID: 220792689462275745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_22
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 79
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93f0694c817d4e60800000000000000
+      internalID: 7948133764719244187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_23
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 63
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2105eedb0762cd0800000000000000
+      internalID: -2583253375201045815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_24
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 47
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f09000860ed2f10800000000000000
+      internalID: 2246698526409559826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_25
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 47
+        width: 14
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f6e2b9cd389c630800000000000000
+      internalID: 3947831531886505743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_26
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 47
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79b525cf0b1e3610800000000000000
+      internalID: 1602748271936518522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_27
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 47
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e701272a13377ad0800000000000000
+      internalID: -2704636863794051097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_28
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 47
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a67d2285d578f80800000000000000
+      internalID: -8104406371306870229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_29
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 47
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb86a012e9d2fc20800000000000000
+      internalID: 3238890646997994488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 47
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da422b74c9118090800000000000000
+      internalID: -8034111928582124848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 47
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f0d00b5e2cb2ca0800000000000000
+      internalID: -6040520183430443124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_32
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 47
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5c70c2540606fa0800000000000000
+      internalID: -5809537669100223058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_33
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 47
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd023050bdc77250800000000000000
+      internalID: 5942444390482054606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_34
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0fe1927f6ae3f70800000000000000
+      internalID: 9168949471849935073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lubble room indoor_PSD_35
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 15
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4083fc95e7c84f30800000000000000
+      internalID: 4560114411707269196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

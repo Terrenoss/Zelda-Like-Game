@@ -1,0 +1,1043 @@
+fileFormatVersion: 2
+guid: 236e46136c9638d4596221db479284b0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6151006981386161524
+    second: Indoor_material_32x32_0
+  - first:
+      213: -5717782676714227342
+    second: Indoor_material_32x32_1
+  - first:
+      213: 1763744986659838991
+    second: Indoor_material_32x32_2
+  - first:
+      213: -5804859591078255140
+    second: Indoor_material_32x32_3
+  - first:
+      213: 8192797152325920433
+    second: Indoor_material_32x32_4
+  - first:
+      213: 6142969043950689009
+    second: Indoor_material_32x32_5
+  - first:
+      213: 3063145714878932539
+    second: Indoor_material_32x32_6
+  - first:
+      213: 1046922956277735790
+    second: Indoor_material_32x32_7
+  - first:
+      213: -6476075218744142358
+    second: Indoor_material_32x32_8
+  - first:
+      213: 5699986591126446662
+    second: Indoor_material_32x32_9
+  - first:
+      213: 3665874850826230788
+    second: Indoor_material_32x32_10
+  - first:
+      213: 8623504708964231046
+    second: Indoor_material_32x32_11
+  - first:
+      213: 1626759539865189667
+    second: Indoor_material_32x32_12
+  - first:
+      213: 5886101242430734683
+    second: Indoor_material_32x32_13
+  - first:
+      213: 5384909932787385299
+    second: Indoor_material_32x32_14
+  - first:
+      213: -798211591500787809
+    second: Indoor_material_32x32_15
+  - first:
+      213: -3237943759668443218
+    second: Indoor_material_32x32_16
+  - first:
+      213: -1964150825519317455
+    second: Indoor_material_32x32_17
+  - first:
+      213: 8319712671165081488
+    second: Indoor_material_32x32_18
+  - first:
+      213: 3717750399114724069
+    second: Indoor_material_32x32_19
+  - first:
+      213: -2586970933845082398
+    second: Indoor_material_32x32_20
+  - first:
+      213: 4175401352673217787
+    second: Indoor_material_32x32_21
+  - first:
+      213: 3687805584683311390
+    second: Indoor_material_32x32_22
+  - first:
+      213: -7991497152896018744
+    second: Indoor_material_32x32_23
+  - first:
+      213: 7150623333665625293
+    second: Indoor_material_32x32_24
+  - first:
+      213: -7449938884499666704
+    second: Indoor_material_32x32_25
+  - first:
+      213: -4261322551055294140
+    second: Indoor_material_32x32_26
+  - first:
+      213: -4823135022080811711
+    second: Indoor_material_32x32_27
+  - first:
+      213: 8200426481101390061
+    second: Indoor_material_32x32_28
+  - first:
+      213: -3602374361451369588
+    second: Indoor_material_32x32_29
+  - first:
+      213: 2782377883559213181
+    second: Indoor_material_32x32_30
+  - first:
+      213: 8696476825510657662
+    second: Indoor_material_32x32_31
+  - first:
+      213: 4761125545480081695
+    second: Indoor_material_32x32_32
+  - first:
+      213: 6450143828383149316
+    second: Indoor_material_32x32_33
+  - first:
+      213: 3690034741438472447
+    second: Indoor_material_32x32_34
+  - first:
+      213: -4505574950673151102
+    second: Indoor_material_32x32_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Indoor_material_32x32_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 415
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82b7876dbb33aaa0800000000000000
+      internalID: -6151006981386161524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 415
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279f09b13fa56a0b0800000000000000
+      internalID: -5717782676714227342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 415
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c5c3c78b41a7810800000000000000
+      internalID: 1763744986659838991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_3
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 415
+        width: 18
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5e2c615fef07fa0800000000000000
+      internalID: -5804859591078255140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 415
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6e73d4a99a2b170800000000000000
+      internalID: 8192797152325920433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_5
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 415
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fad6e27cc5304550800000000000000
+      internalID: 6142969043950689009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_6
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 415
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b366e966cca728a20800000000000000
+      internalID: 3063145714878932539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_7
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 415
+        width: 34
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61e224c1ea678e00800000000000000
+      internalID: 1046922956277735790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 367
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae59b0876eb5026a0800000000000000
+      internalID: -6476075218744142358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_9
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 367
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 642e494da9b6a1f40800000000000000
+      internalID: 5699986591126446662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_10
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 367
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c198211cdcfd230800000000000000
+      internalID: 3665874850826230788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_11
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 367
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687a8b0f7d7dca770800000000000000
+      internalID: 8623504708964231046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_12
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 319
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d74acbe29639610800000000000000
+      internalID: 1626759539865189667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_13
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 319
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51c113e4e1afa150800000000000000
+      internalID: 5886101242430734683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_14
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 287
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d3c34bad0b0bba40800000000000000
+      internalID: 5384909932787385299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_15
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 255
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f0ff069ce2ce4f0800000000000000
+      internalID: -798211591500787809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_16
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 319
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea705425e438013d0800000000000000
+      internalID: -3237943759668443218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_17
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 255
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e71af0b3fedb4e0800000000000000
+      internalID: -1964150825519317455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_18
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 191
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0976c1e389e857370800000000000000
+      internalID: 8319712671165081488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_19
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 191
+        width: 34
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2ccce5a4a189330800000000000000
+      internalID: 3717750399114724069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_20
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ee37eb54ab391cd0800000000000000
+      internalID: -2586970933845082398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_21
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 223
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfcc5c4786102f930800000000000000
+      internalID: 4175401352673217787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_22
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 159
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1120c3f3a7bd2330800000000000000
+      internalID: 3687805584683311390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_23
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 127
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c656122eaf781190800000000000000
+      internalID: -7991497152896018744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_24
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 95
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc452cd490e1c3360800000000000000
+      internalID: 7150623333665625293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_25
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 95
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f807075e008c9890800000000000000
+      internalID: -7449938884499666704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_26
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 95
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441ecfe97bdbcd4c0800000000000000
+      internalID: -4261322551055294140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_27
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 95
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d90216048c01db0800000000000000
+      internalID: -4823135022080811711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_28
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 95
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de041c4df64cdc170800000000000000
+      internalID: 8200426481101390061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_29
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 95
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b67bdba9bc10ec0800000000000000
+      internalID: -3602374361451369588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_30
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 95
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78337481fdfc9620800000000000000
+      internalID: 2782377883559213181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 95
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ebafdc89710b870800000000000000
+      internalID: 8696476825510657662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_32
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 95
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11d065457ae21240800000000000000
+      internalID: 4761125545480081695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_33
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 95
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40da4f833a3838950800000000000000
+      internalID: 6450143828383149316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_34
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff06a44fb03a53330800000000000000
+      internalID: 3690034741438472447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Indoor_material_32x32_35
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 31
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b8a34347bf871c0800000000000000
+      internalID: -4505574950673151102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
