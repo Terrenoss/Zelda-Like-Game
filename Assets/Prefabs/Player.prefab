@@ -16,8 +16,8 @@ GameObject:
   - component: {fileID: 6206617789092748578}
   - component: {fileID: 1122273673528881653}
   - component: {fileID: 7583678834112190714}
-  - component: {fileID: 1594646125155739882}
-  - component: {fileID: 2319701177968433030}
+  - component: {fileID: 3809103653395735975}
+  - component: {fileID: 1419503764483683433}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -285,7 +285,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &6206617789092748578
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,7 +334,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec045d1e9d5bf334680edec55f358c40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1594646125155739882
+--- !u!114 &3809103653395735975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7146736961282016894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a3e263a5a1f2884b9d3842d5d1fb5ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthSlider: {fileID: 0}
+  easeHealthSlider: {fileID: 0}
+--- !u!114 &1419503764483683433
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -348,20 +362,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 100
   maxHealth: 100
---- !u!114 &2319701177968433030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7146736961282016894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a03bdcebcea523f488aa14f538e0f7b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentHealth: 0
-  maxHealth: 0
-  chipSpeed: 1.5
-  frontHB: {fileID: 0}
-  backHB: {fileID: 0}

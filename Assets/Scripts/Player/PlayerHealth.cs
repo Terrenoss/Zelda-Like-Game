@@ -1,63 +1,29 @@
-using System;
 using UnityEngine;
-using UnityEngine.UI;
+using System;
 
 public class PlayerHealth : MonoBehaviour
 {
-    
     public float currentHealth;
     public float maxHealth;
-    
-    private float lerpSpeed = 0.5f;
-    public Image healthSlider;
-    public Image easeHealthSlider;
 
-    
+    public event Action<float> OnHealthChanged; // Événement pour notifier l'UI
+
     private void Start()
     {
         currentHealth = maxHealth;
     }
 
-    private void Update()
-    {
-        // if (healthSlider.fillAmount != currentHealth/maxHealth)
-        // {
-        //     healthSlider.fillAmount = currentHealth/maxHealth;
-        // }
-        //
-        // if(healthSlider.fillAmount != easeHealthSlider.fillAmount)
-        // {
-        //     easeHealthSlider.fillAmount = Mathf.Lerp(easeHealthSlider.fillAmount, currentHealth/maxHealth, lerpSpeed);
-        // }
-    }
-
     public void ChangeHealth(int amount)
     {
         currentHealth += amount;
-        
-        if(currentHealth > maxHealth)
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+
+        float healthPercentage = currentHealth / maxHealth;
+        OnHealthChanged?.Invoke(healthPercentage); // Notifie l'UI
+
+        if (currentHealth <= 0)
         {
-            currentHealth = maxHealth;
-        }
-        if(currentHealth <= 0)
-        {
-            gameObject.SetActive(false);
-        }
-        
-        UpdatePlayerHB();
-    }
-    
-    
-    public void UpdatePlayerHB()
-    {
-        if(healthSlider.fillAmount != currentHealth/maxHealth)
-        {
-            healthSlider.fillAmount = currentHealth/maxHealth;
-        }
-        
-        if(healthSlider.fillAmount != easeHealthSlider.fillAmount)
-        {
-            easeHealthSlider.fillAmount = Mathf.Lerp(easeHealthSlider.fillAmount, healthSlider.fillAmount, lerpSpeed);
+            gameObject.GetComponent<PlayerMovement>().enabled = false;
         }
     }
 }
