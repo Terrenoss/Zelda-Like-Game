@@ -169,7 +169,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -207,7 +207,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -261,10 +261,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 383
-        width: 44
-        height: 47
+        x: 0
+        y: 384
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,10 +283,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_1
       rect:
         serializedVersion: 2
-        x: 50
-        y: 383
-        width: 44
-        height: 47
+        x: 48
+        y: 384
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,10 +305,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_2
       rect:
         serializedVersion: 2
-        x: 98
-        y: 383
-        width: 44
-        height: 47
+        x: 96
+        y: 384
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,10 +327,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_3
       rect:
         serializedVersion: 2
-        x: 146
-        y: 383
-        width: 44
-        height: 47
+        x: 144
+        y: 384
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_4
       rect:
         serializedVersion: 2
-        x: 194
-        y: 383
-        width: 44
-        height: 47
+        x: 192
+        y: 384
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,10 +371,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_5
       rect:
         serializedVersion: 2
-        x: 2
-        y: 335
-        width: 44
-        height: 47
+        x: 0
+        y: 336
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +393,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_6
       rect:
         serializedVersion: 2
-        x: 50
-        y: 335
-        width: 44
-        height: 47
+        x: 48
+        y: 336
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +415,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_7
       rect:
         serializedVersion: 2
-        x: 98
-        y: 335
-        width: 44
-        height: 47
+        x: 96
+        y: 336
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,10 +437,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_8
       rect:
         serializedVersion: 2
-        x: 146
-        y: 335
-        width: 44
-        height: 47
+        x: 144
+        y: 336
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,10 +459,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_9
       rect:
         serializedVersion: 2
-        x: 194
-        y: 335
-        width: 44
-        height: 47
+        x: 192
+        y: 336
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,10 +481,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_10
       rect:
         serializedVersion: 2
-        x: 2
-        y: 287
-        width: 44
-        height: 47
+        x: 0
+        y: 288
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,10 +503,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_11
       rect:
         serializedVersion: 2
-        x: 50
-        y: 287
-        width: 44
-        height: 47
+        x: 48
+        y: 288
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,10 +525,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_12
       rect:
         serializedVersion: 2
-        x: 98
-        y: 287
-        width: 44
-        height: 47
+        x: 96
+        y: 288
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,10 +547,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_13
       rect:
         serializedVersion: 2
-        x: 146
-        y: 287
-        width: 44
-        height: 47
+        x: 144
+        y: 288
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,10 +569,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_14
       rect:
         serializedVersion: 2
-        x: 194
-        y: 287
-        width: 44
-        height: 47
+        x: 192
+        y: 288
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,10 +591,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_15
       rect:
         serializedVersion: 2
-        x: 2
-        y: 239
-        width: 44
-        height: 47
+        x: 0
+        y: 240
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,10 +613,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_16
       rect:
         serializedVersion: 2
-        x: 50
-        y: 239
-        width: 44
-        height: 47
+        x: 48
+        y: 240
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,10 +635,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_17
       rect:
         serializedVersion: 2
-        x: 98
-        y: 239
-        width: 44
-        height: 47
+        x: 96
+        y: 240
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,10 +657,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_18
       rect:
         serializedVersion: 2
-        x: 146
-        y: 239
-        width: 44
-        height: 47
+        x: 144
+        y: 240
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,10 +679,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_19
       rect:
         serializedVersion: 2
-        x: 194
-        y: 239
-        width: 44
-        height: 47
+        x: 192
+        y: 240
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,10 +701,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_20
       rect:
         serializedVersion: 2
-        x: 2
-        y: 191
-        width: 44
-        height: 47
+        x: 0
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,10 +723,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_21
       rect:
         serializedVersion: 2
-        x: 50
-        y: 191
-        width: 44
-        height: 47
+        x: 48
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,10 +745,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_22
       rect:
         serializedVersion: 2
-        x: 98
-        y: 191
-        width: 44
-        height: 47
+        x: 96
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,10 +767,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_23
       rect:
         serializedVersion: 2
-        x: 146
-        y: 191
-        width: 44
-        height: 47
+        x: 144
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,10 +789,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_24
       rect:
         serializedVersion: 2
-        x: 194
-        y: 191
-        width: 44
-        height: 47
+        x: 192
+        y: 192
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,10 +811,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_25
       rect:
         serializedVersion: 2
-        x: 2
-        y: 143
-        width: 44
-        height: 47
+        x: 0
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,10 +833,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_26
       rect:
         serializedVersion: 2
-        x: 50
-        y: 143
-        width: 44
-        height: 47
+        x: 48
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,10 +855,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_27
       rect:
         serializedVersion: 2
-        x: 98
-        y: 143
-        width: 44
-        height: 47
+        x: 96
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,10 +877,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_28
       rect:
         serializedVersion: 2
-        x: 146
-        y: 143
-        width: 44
-        height: 47
+        x: 144
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,10 +899,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_29
       rect:
         serializedVersion: 2
-        x: 194
-        y: 143
-        width: 44
-        height: 47
+        x: 192
+        y: 144
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,10 +921,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_30
       rect:
         serializedVersion: 2
-        x: 2
-        y: 95
-        width: 44
-        height: 47
+        x: 0
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,10 +943,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_31
       rect:
         serializedVersion: 2
-        x: 50
-        y: 95
-        width: 44
-        height: 47
+        x: 48
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,10 +965,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_32
       rect:
         serializedVersion: 2
-        x: 98
-        y: 95
-        width: 44
-        height: 47
+        x: 96
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,10 +987,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_33
       rect:
         serializedVersion: 2
-        x: 146
-        y: 95
-        width: 44
-        height: 47
+        x: 144
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,10 +1009,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_34
       rect:
         serializedVersion: 2
-        x: 194
-        y: 95
-        width: 44
-        height: 47
+        x: 192
+        y: 96
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,10 +1031,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_35
       rect:
         serializedVersion: 2
-        x: 2
-        y: 47
-        width: 44
-        height: 47
+        x: 0
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,10 +1053,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_36
       rect:
         serializedVersion: 2
-        x: 50
-        y: 47
-        width: 44
-        height: 47
+        x: 48
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,10 +1075,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_37
       rect:
         serializedVersion: 2
-        x: 98
-        y: 47
-        width: 44
-        height: 47
+        x: 96
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,10 +1097,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_38
       rect:
         serializedVersion: 2
-        x: 146
-        y: 47
-        width: 44
-        height: 47
+        x: 144
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,10 +1119,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_39
       rect:
         serializedVersion: 2
-        x: 194
-        y: 47
-        width: 44
-        height: 47
+        x: 192
+        y: 48
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,10 +1141,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_40
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 44
-        height: 46
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,10 +1163,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_41
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 0
-        width: 44
-        height: 46
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,10 +1185,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_42
       rect:
         serializedVersion: 2
-        x: 98
+        x: 96
         y: 0
-        width: 44
-        height: 46
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,10 +1207,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_43
       rect:
         serializedVersion: 2
-        x: 146
+        x: 144
         y: 0
-        width: 44
-        height: 46
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,10 +1229,10 @@ TextureImporter:
       name: potions-basic-sheet-4-3x_44
       rect:
         serializedVersion: 2
-        x: 194
+        x: 192
         y: 0
-        width: 44
-        height: 46
+        width: 48
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,7 +1251,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b1787bd10b4a0c74e9409c309072b412
     internalID: 0
     vertices: []
     indices: 

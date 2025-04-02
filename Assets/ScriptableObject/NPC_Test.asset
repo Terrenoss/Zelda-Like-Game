@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e0ead1012a47d346a4d81513c5aa3c0, type: 3}
+  m_Name: NPC_Test
+  m_EditorClassIdentifier: 
+  npcName: Test
+  npcSprite: {fileID: 395047242527948534, guid: 6936cda0e86dfa347ad1fba79af4545b, type: 3}
+  dialogueLines:
+  - Test
+  - i hate ...
+  - n
+  autoProgressLines: 010000
+  autoProgressDelay: 1.5
+  typingSpeed: 0.05
+  voiceSound: {fileID: 0}
+  voicePitch: 1
