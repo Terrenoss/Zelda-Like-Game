@@ -1,16 +1,15 @@
-using System.Collections;
-using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
+using System.Collections;
 
-public class NPC : MonoBehaviour, IInteractable
+public class NPC : MonoBehaviour
 {
     public NPCDialogue dialogueData;
     public GameObject dialoguePanel;
     public TMP_Text dialogueText, nameText;
     public GameObject InteractIcon;
-    
+    public QuestGiver questGiver; // Peut être NULL
+
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
 
@@ -19,81 +18,105 @@ public class NPC : MonoBehaviour, IInteractable
         return !isDialogueActive;
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Debug.Log("Touche Space pressée !");
+            Interact();
+        }
+    }
+
     public void Interact()
     {
-        if(dialogueData == null)
-        {
-            Debug.LogError("Dialogue data is not assigned to the NPC.");
-            return;
-        }
+        Debug.Log("Interaction avec le PNJ déclenchée !");
+
+        // Si le dialogue est actif, on passe à la ligne suivante
         if (isDialogueActive)
         {
             NextLines();
         }
         else
         {
+            // Si le dialogue n'est pas encore démarré, on lance le dialogue
             StartDialogue();
+            
+            // Vérifier si le PNJ a une quête à donner
+            if (questGiver != null && questGiver.HasQuest())
+            {
+                Debug.Log("PNJ a une quête, tentative de donner la quête...");
+                questGiver.GiveQuest();
+            }
+            else
+            {
+                Debug.Log("PNJ n'a pas de quête à donner.");
+            }
         }
     }
-    
+
     public void NextLines()
     {
         if (isTyping)
         {
+            // Si une ligne est en train de s'écrire, on l'affiche complètement
             StopAllCoroutines();
             dialogueText.SetText(dialogueData.dialogueLines[dialogueIndex]);
             isTyping = false;
         }
         else if (++dialogueIndex < dialogueData.dialogueLines.Length)
-            {
-                StartCoroutine(TypeLine());
-            }
-            else
-            {
-                EndDialogue();
-            }
+        {
+            // Si on a encore des lignes de dialogue, on lance la suivante
+            StartCoroutine(TypeLine());
+        }
+        else
+        {
+            // Si c'est la fin du dialogue, on le termine
+            EndDialogue();
+        }
     }
 
     void StartDialogue()
     {
+        // Démarre le dialogue
         isDialogueActive = true;
         dialogueIndex = 0;
-        
-        nameText.SetText(dialogueData.name);
         dialoguePanel.SetActive(true);
-
         StartCoroutine(TypeLine());
     }
-    
-    
-    
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            // Affiche l'icône d'interaction si le joueur entre dans la zone de déclenchement
             InteractIcon.SetActive(true);
         }
     }
+
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            // Cache l'icône d'interaction si le joueur sort de la zone
             InteractIcon.SetActive(false);
         }
     }
-    
+
     IEnumerator TypeLine()
     {
         isTyping = true;
         dialogueText.SetText("");
+        
+        // Tape chaque caractère un par un
         foreach (char letter in dialogueData.dialogueLines[dialogueIndex])
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(dialogueData.typingSpeed);
         }
         isTyping = false;
-        
-        if(dialogueData.autoProgressLines.Length > dialogueIndex && dialogueData.autoProgressLines[dialogueIndex])
+
+        // Si le dialogue doit progresser automatiquement, on passe à la ligne suivante après un délai
+        if (dialogueData.autoProgressLines.Length > dialogueIndex && dialogueData.autoProgressLines[dialogueIndex])
         {
             yield return new WaitForSeconds(dialogueData.autoProgressDelay);
             NextLines();
@@ -102,13 +125,10 @@ public class NPC : MonoBehaviour, IInteractable
 
     public void EndDialogue()
     {
+        // Terminer le dialogue
         StopAllCoroutines();
         isDialogueActive = false;
         dialogueText.SetText("");
         dialoguePanel.SetActive(false);
     }
 }
-
-
-
-public interface IInteractable { }

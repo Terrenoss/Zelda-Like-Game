@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fantasy Interior Tiles_0: 250447596726389940
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

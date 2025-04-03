@@ -12,6 +12,6 @@ public class NPCDialogue : ScriptableObject
     public bool[] autoProgressLines; // Array to determine if the line should auto progress
     public float autoProgressDelay = 1.5f; // Time to wait before auto progressing
     public float typingSpeed = 0.05f; // The speed at which the dialogue is displayed
-    public AudioClip voiceSound;
-    public float voicePitch = 1f;
+    // public AudioClip voiceSound;
+    // public float voicePitch = 1f;
 }

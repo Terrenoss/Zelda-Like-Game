@@ -13,13 +13,10 @@ MonoBehaviour:
   m_Name: NPC_Test
   m_EditorClassIdentifier: 
   npcName: Test
-  npcSprite: {fileID: 395047242527948534, guid: 6936cda0e86dfa347ad1fba79af4545b, type: 3}
   dialogueLines:
-  - Test
+  - Is is a test for NPC Dialogue If u don't see that the script doest work.
   - i hate ...
-  - n
+  - all of u, i just can wait to kill all of u.
   autoProgressLines: 010000
   autoProgressDelay: 1.5
   typingSpeed: 0.05
-  voiceSound: {fileID: 0}
-  voicePitch: 1

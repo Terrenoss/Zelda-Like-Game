@@ -1035,7 +1035,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Indoor_material_32x32_0: -6151006981386161524
+      Indoor_material_32x32_1: -5717782676714227342
+      Indoor_material_32x32_10: 3665874850826230788
+      Indoor_material_32x32_11: 8623504708964231046
+      Indoor_material_32x32_12: 1626759539865189667
+      Indoor_material_32x32_13: 5886101242430734683
+      Indoor_material_32x32_14: 5384909932787385299
+      Indoor_material_32x32_15: -798211591500787809
+      Indoor_material_32x32_16: -3237943759668443218
+      Indoor_material_32x32_17: -1964150825519317455
+      Indoor_material_32x32_18: 8319712671165081488
+      Indoor_material_32x32_19: 3717750399114724069
+      Indoor_material_32x32_2: 1763744986659838991
+      Indoor_material_32x32_20: -2586970933845082398
+      Indoor_material_32x32_21: 4175401352673217787
+      Indoor_material_32x32_22: 3687805584683311390
+      Indoor_material_32x32_23: -7991497152896018744
+      Indoor_material_32x32_24: 7150623333665625293
+      Indoor_material_32x32_25: -7449938884499666704
+      Indoor_material_32x32_26: -4261322551055294140
+      Indoor_material_32x32_27: -4823135022080811711
+      Indoor_material_32x32_28: 8200426481101390061
+      Indoor_material_32x32_29: -3602374361451369588
+      Indoor_material_32x32_3: -5804859591078255140
+      Indoor_material_32x32_30: 2782377883559213181
+      Indoor_material_32x32_31: 8696476825510657662
+      Indoor_material_32x32_32: 4761125545480081695
+      Indoor_material_32x32_33: 6450143828383149316
+      Indoor_material_32x32_34: 3690034741438472447
+      Indoor_material_32x32_35: -4505574950673151102
+      Indoor_material_32x32_4: 8192797152325920433
+      Indoor_material_32x32_5: 6142969043950689009
+      Indoor_material_32x32_6: 3063145714878932539
+      Indoor_material_32x32_7: 1046922956277735790
+      Indoor_material_32x32_8: -6476075218744142358
+      Indoor_material_32x32_9: 5699986591126446662
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

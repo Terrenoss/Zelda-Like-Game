@@ -1035,7 +1035,43 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Indoor _material_16x16_0: -6002381646814905354
+      Indoor _material_16x16_1: 1707177034390234194
+      Indoor _material_16x16_10: -8409284752931609887
+      Indoor _material_16x16_11: 7666070256378655032
+      Indoor _material_16x16_12: -614261667488843312
+      Indoor _material_16x16_13: 1757643625597191600
+      Indoor _material_16x16_14: -6523495176917888965
+      Indoor _material_16x16_15: 5348513079144405258
+      Indoor _material_16x16_16: 1515386419006580663
+      Indoor _material_16x16_17: -1789086238115394586
+      Indoor _material_16x16_18: 5794198915772833803
+      Indoor _material_16x16_19: 8017210018573001996
+      Indoor _material_16x16_2: 6804091511368124091
+      Indoor _material_16x16_20: -1439273812497179508
+      Indoor _material_16x16_21: 750119606025979826
+      Indoor _material_16x16_22: -7250940618471301908
+      Indoor _material_16x16_23: 4959815294560133627
+      Indoor _material_16x16_24: -2320902381983168842
+      Indoor _material_16x16_25: -1891822700583925863
+      Indoor _material_16x16_26: -8388660982376737721
+      Indoor _material_16x16_27: -7803776404246017406
+      Indoor _material_16x16_28: -3290511358890624948
+      Indoor _material_16x16_29: 568670344916354852
+      Indoor _material_16x16_3: 5498360422237585285
+      Indoor _material_16x16_30: 7376591712234150608
+      Indoor _material_16x16_31: 3669676162968462094
+      Indoor _material_16x16_32: -6779873684937360952
+      Indoor _material_16x16_33: 525389318123954395
+      Indoor _material_16x16_34: 7614543913574715224
+      Indoor _material_16x16_35: -501949701569200327
+      Indoor _material_16x16_4: 2077932743054550700
+      Indoor _material_16x16_5: 9154894138258485645
+      Indoor _material_16x16_6: 3187431135195142977
+      Indoor _material_16x16_7: -718530528269046753
+      Indoor _material_16x16_8: 1166691805846565831
+      Indoor _material_16x16_9: -4886626969389731320
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
