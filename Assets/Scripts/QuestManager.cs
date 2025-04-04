@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -22,46 +23,129 @@ public class QuestManager : MonoBehaviour
         questPanel.SetActive(false); // On cache le panel au début
     }
 
-    // Ajouter une quête à la liste active
     public void AddQuest(Quest quest)
     {
         if (!activeQuests.Contains(quest))
         {
-            quest.ResetQuest(); // Réinitialiser si la quête a déjà été faite
+            // Réinitialiser l'alpha avant d'ajouter la quête
+            CanvasGroup canvasGroup = questPanel.GetComponent<CanvasGroup>();
+            if (canvasGroup != null)
+            {
+                canvasGroup.alpha = 1f;
+            }
+
+            quest.ResetQuest();
             activeQuests.Add(quest);
             UpdateUI(quest);
-        }
-    }
-
-    // Mettre à jour l'affichage de la quête
-    public void UpdateUI(Quest quest)
-    {
-        questPanel.SetActive(true); // On affiche le panel de la quête
-        nameText.SetText(quest.questName); // On met à jour le nom de la quête
-        questText.SetText(quest.description + " (" + quest.currentAmount + "/" + quest.targetAmount + ")"); // On affiche la description et la progression
-    }
-
-    // Mettre à jour la progression de la quête
-    public void CompleteTask(Quest quest, int amount)
-    {
-        if (activeQuests.Contains(quest))
-        {
-            quest.AddProgress(amount); // On ajoute la progression de la quête
-            UpdateUI(quest); // On met à jour l'UI
-            if (quest.isCompleted)
+        
+            // Forcer l'activation et la visibilité du panel
+            questPanel.SetActive(true);
+            if (canvasGroup != null)
             {
-                questText.SetText("Quête terminée !"); // Si la quête est terminée, on affiche "Quête terminée"
+                canvasGroup.alpha = 1f;
             }
         }
     }
 
-    // Optionnel : Retirer une quête terminée de la liste active
-    public void RemoveQuest(Quest quest)
+    public void UpdateUI(Quest quest)
+    {
+        if (activeQuests.Count > 0)
+        {
+            // S'assurer que le panel est visible
+            QuestUIFadeOut fadeScript = questPanel.GetComponent<QuestUIFadeOut>();
+            if (fadeScript != null)
+            {
+                fadeScript.ResetAlpha();
+            }
+            else
+            {
+                CanvasGroup cg = questPanel.GetComponent<CanvasGroup>();
+                if (cg != null)
+                {
+                    cg.alpha = 1f;
+                }
+            }
+
+            questPanel.SetActive(true);
+            nameText.SetText(quest.questName);
+            questText.SetText(quest.description + " (" + quest.currentAmount + "/" + quest.targetAmount + ")");
+        }
+    }
+
+    public void CompleteTask(Quest quest, int amount)
     {
         if (activeQuests.Contains(quest))
         {
-            activeQuests.Remove(quest);
-            Debug.Log("La quête " + quest.questName + " a été terminée et retirée.");
+            quest.AddProgress(amount);
+            Debug.Log("Progression mise à jour pour " + quest.questName + " : " + quest.currentAmount + "/" + quest.targetAmount);
+            UpdateUI(quest);
+
+            if (quest.isCompleted)
+            {
+                questText.SetText("Quête terminée !");
+                Debug.Log("Quête terminée : " + quest.questName);
+
+                if (quest.isRepeatable)
+                {
+                    RemoveQuest(quest); // Retirer la quête de l'UI
+                    quest.ResetQuest(); // Réinitialiser la quête pour pouvoir la reprendre plus tard
+                    // Pas de suppression, juste réinitialisation
+                }
+                else
+                {
+                    RemoveQuest(quest); // Supprimer définitivement si non répétable
+                }
+            }
+        }
+        else
+        {
+            Debug.LogWarning("La quête " + quest.questName + " n'est pas dans activeQuests !");
+        }
+    }
+
+
+
+
+    public void RemoveQuest(Quest quest)
+    {
+        Quest questToRemove = activeQuests.Find(q => q.questName == quest.questName);
+
+        if (questToRemove != null)
+        {
+            activeQuests.Remove(questToRemove);
+        
+            // Démarrer le fondu
+            QuestUIFadeOut fadeScript = questPanel.GetComponent<QuestUIFadeOut>();
+            if (fadeScript == null)
+            {
+                fadeScript = questPanel.AddComponent<QuestUIFadeOut>();
+            }
+            fadeScript.StartFadeOut(1.5f);
+
+            // Mettre à jour l'UI après le fondu
+            StartCoroutine(UpdateUIAfterFade(1.5f));
+        }
+    }
+
+    private IEnumerator UpdateUIAfterFade(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+    
+        if (activeQuests.Count > 0)
+        {
+            // Réinitialiser l'alpha avant d'afficher la prochaine quête
+            CanvasGroup canvasGroup = questPanel.GetComponent<CanvasGroup>();
+            if (canvasGroup != null)
+            {
+                canvasGroup.alpha = 1f;
+            }
+        
+            UpdateUI(activeQuests[0]);
+            questPanel.SetActive(true);
+        }
+        else
+        {
+            questPanel.SetActive(false);
         }
     }
 }

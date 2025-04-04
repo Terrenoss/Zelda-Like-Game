@@ -891,6 +891,7 @@ GameObject:
   - component: {fileID: 213532389}
   - component: {fileID: 213532391}
   - component: {fileID: 213532392}
+  - component: {fileID: 213532393}
   m_Layer: 0
   m_Name: NPC
   m_TagString: Untagged
@@ -1095,7 +1096,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1880691254}
   nameText: {fileID: 0}
   InteractIcon: {fileID: 1594951781}
-  questGiver: {fileID: 0}
+  questGiver: {fileID: 213532392}
 --- !u!114 &213532392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1110,6 +1111,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questsToGive:
   - {fileID: 11400000, guid: 36fdf9726c3036842904012cf710976e, type: 2}
+--- !u!114 &213532393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213532384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80ceb79a060d61c4fa3dcbe78a78ffa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  testQuest: {fileID: 11400000, guid: 36fdf9726c3036842904012cf710976e, type: 2}
 --- !u!1 &350076604
 GameObject:
   m_ObjectHideFlags: 0
@@ -2490,6 +2504,8 @@ GameObject:
   - component: {fileID: 812758709}
   - component: {fileID: 812758711}
   - component: {fileID: 812758710}
+  - component: {fileID: 812758713}
+  - component: {fileID: 812758712}
   m_Layer: 5
   m_Name: QuestPanel
   m_TagString: Untagged
@@ -2556,6 +2572,30 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 812758708}
   m_CullTransparentMesh: 1
+--- !u!114 &812758712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812758708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4cf824025f196449001cb9c7d641c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &812758713
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 812758708}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &832419502
 GameObject:
   m_ObjectHideFlags: 0
@@ -5510,7 +5550,7 @@ GameObject:
   - component: {fileID: 1839708697}
   - component: {fileID: 1839708696}
   m_Layer: 5
-  m_Name: QuestText
+  m_Name: DescriptionText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5532,7 +5572,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 100.00002, y: 0}
+  m_AnchoredPosition: {x: 100, y: 0}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1839708696
@@ -5589,7 +5629,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -5620,7 +5660,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -46.205338, y: 0, z: 0, w: -23.695152}
+  m_margin: {x: -46.205338, y: 0, z: 0, w: -0.099504486}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -6339,7 +6379,7 @@ GameObject:
   - component: {fileID: 1981580884}
   - component: {fileID: 1981580883}
   m_Layer: 5
-  m_Name: QuestName
+  m_Name: NameText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

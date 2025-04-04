@@ -2,60 +2,72 @@ using UnityEngine;
 
 public class QuestGiver : MonoBehaviour
 {
-    public Quest[] questsToGive; // Permet à un PNJ d'avoir plusieurs quêtes
-    private int questIndex = 0;  // Indice de la quête actuelle à donner
+    public Quest[] questsToGive;
+    private int questIndex = 0;
 
-    // Vérifie si le PNJ a encore une quête à donner
     public bool HasQuest()
     {
-        return questIndex < questsToGive.Length;
+        // Vérifie d'abord si on a dépassé le tableau
+        if (questIndex >= questsToGive.Length || questsToGive[questIndex] == null)
+            return false;
+
+        Quest currentQuest = questsToGive[questIndex];
+
+        // Cas 1: Quête non répétable jamais donnée
+        if (!currentQuest.isRepeatable && !QuestManager.instance.activeQuests.Contains(currentQuest))
+        {
+            return true;
+        }
+
+        // Cas 2: Quête répétable (terminée ou jamais donnée)
+        if (currentQuest.isRepeatable)
+        {
+            // Si terminée, on peut la redonner
+            if (currentQuest.isCompleted)
+                return true;
+            
+            // Si pas encore donnée
+            return !QuestManager.instance.activeQuests.Contains(currentQuest);
+        }
+
+        return false;
     }
 
-    // Récupère la quête actuelle à donner
     public Quest GetCurrentQuest()
     {
-        if (HasQuest())
-        {
+        if (questIndex < questsToGive.Length)
             return questsToGive[questIndex];
-        }
         return null;
     }
 
-    // Donne la quête au joueur
     public void GiveQuest()
     {
-        if (HasQuest())
+        if (!HasQuest())
         {
-            Quest quest = GetCurrentQuest();
-            
-            // Vérifie si la quête n'est pas déjà dans la liste des quêtes actives
-            if (!QuestManager.instance.activeQuests.Contains(quest))
-            {
-                // Si la quête n'est pas déjà dans les quêtes actives, on l'ajoute
-                Debug.Log("Ajout de la quête : " + quest.questName);
-                QuestManager.instance.AddQuest(quest);
-                
-                // Si le PNJ a plus de quêtes à donner, on passe à la suivante
-                questIndex++;
-
-                // Affiche un message si toutes les quêtes ont été données
-                if (questIndex >= questsToGive.Length)
-                {
-                    Debug.Log("Toutes les quêtes ont été données !");
-                }
-            }
-            else
-            {
-                Debug.Log("Le joueur a déjà cette quête !");
-            }
+            Debug.Log("Aucune quête disponible à donner actuellement");
+            return;
         }
-        else
+
+        Quest quest = GetCurrentQuest();
+        
+        // Réinitialiser si c'est une quête répétable terminée
+        if (quest.isRepeatable && quest.isCompleted)
         {
-            Debug.Log("Aucune quête à donner !");
+            quest.ResetQuest();
+        }
+
+        // Ajouter la quête au manager
+        QuestManager.instance.AddQuest(quest);
+        Debug.Log($"Quête donnée: {quest.questName} (Répétable: {quest.isRepeatable})");
+
+        // Incrémenter l'index SEULEMENT pour les quêtes non répétables
+        if (!quest.isRepeatable)
+        {
+            questIndex++;
+            Debug.Log($"Passage à la quête suivante (index: {questIndex})");
         }
     }
 
-    // Optionnel : Pour réinitialiser la quête si nécessaire
     public void ResetQuestIndex()
     {
         questIndex = 0;

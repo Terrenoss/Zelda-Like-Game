@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c2f6700bfd6849e4687fa853b55e4f52, type: 3}
-  m_Name: TestQuest
+  m_Name: testQuest
   m_EditorClassIdentifier: 
-  questName: Test
-  description: Kill 3 SnowMan
+  questName: KILL
+  description: Need to KILL SNOWMAN
   targetAmount: 3
   currentAmount: 0
   isCompleted: 0
+  isRepeatable: 1

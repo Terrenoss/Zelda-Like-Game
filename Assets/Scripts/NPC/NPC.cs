@@ -27,29 +27,40 @@ public class NPC : MonoBehaviour
         }
     }
 
+// Seule la partie Interact() a été modifiée
     public void Interact()
     {
         Debug.Log("Interaction avec le PNJ déclenchée !");
 
-        // Si le dialogue est actif, on passe à la ligne suivante
         if (isDialogueActive)
         {
             NextLines();
         }
         else
         {
-            // Si le dialogue n'est pas encore démarré, on lance le dialogue
             StartDialogue();
+        
+            if (questGiver != null)
+            {
+                Quest currentQuest = questGiver.GetCurrentQuest();
             
-            // Vérifier si le PNJ a une quête à donner
-            if (questGiver != null && questGiver.HasQuest())
-            {
-                Debug.Log("PNJ a une quête, tentative de donner la quête...");
-                questGiver.GiveQuest();
-            }
-            else
-            {
-                Debug.Log("PNJ n'a pas de quête à donner.");
+                if (currentQuest != null)
+                {
+                    Debug.Log($"Quête actuelle: {currentQuest.questName}");
+                    Debug.Log($"- Répétable: {currentQuest.isRepeatable}");
+                    Debug.Log($"- Terminée: {currentQuest.isCompleted}");
+                    Debug.Log($"- Active: {QuestManager.instance.activeQuests.Contains(currentQuest)}");
+                }
+
+                if (questGiver.HasQuest())
+                {
+                    Debug.Log("Donner la quête...");
+                    questGiver.GiveQuest();
+                }
+                else
+                {
+                    Debug.Log("Le PNJ n'a pas de quête à donner actuellement");
+                }
             }
         }
     }
