@@ -10,6 +10,7 @@ public class Quest : ScriptableObject
     public bool isCompleted;
     public bool isRepeatable;
 
+    // Metre des ACTION ici pour les quêtes
     public void AddProgress(int amount)
     {
         if (!isCompleted)

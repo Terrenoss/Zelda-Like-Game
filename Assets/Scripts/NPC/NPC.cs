@@ -9,6 +9,7 @@ public class NPC : MonoBehaviour
     public TMP_Text dialogueText, nameText;
     public GameObject InteractIcon;
     public QuestGiver questGiver; // Peut être NULL
+    public bool playerNearby = false;
 
     private int dialogueIndex;
     private bool isTyping, isDialogueActive;
@@ -20,9 +21,8 @@ public class NPC : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && playerNearby)
         {
-            Debug.Log("Touche Space pressée !");
             Interact();
         }
     }
@@ -101,6 +101,7 @@ public class NPC : MonoBehaviour
         {
             // Affiche l'icône d'interaction si le joueur entre dans la zone de déclenchement
             InteractIcon.SetActive(true);
+            playerNearby = true;
         }
     }
 
@@ -110,6 +111,8 @@ public class NPC : MonoBehaviour
         {
             // Cache l'icône d'interaction si le joueur sort de la zone
             InteractIcon.SetActive(false);
+            playerNearby = false;
+            EndDialogue();
         }
     }
 
