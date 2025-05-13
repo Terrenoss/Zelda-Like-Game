@@ -29,20 +29,23 @@ public class Enemy_Movement : MonoBehaviour
     
     void Update()
     {
-        CheckForPlayer();
-        if(attackCooldownTimer > 0)
+        if(enemyState != EnemyState.KnockedBack)
         {
-            attackCooldownTimer -= Time.deltaTime;
-        }
-        Debug.Log ($"Enemy State: {EnemyState.Chasing}");
-        if (enemyState == EnemyState.Chasing)
-        {
-            Chase();
-        }
-        else if (enemyState == EnemyState.Attacking)
-        {
-            // anim.SetBool("isAttacking", true);
-            rb.linearVelocity = Vector2.zero;
+            CheckForPlayer();
+            if(attackCooldownTimer > 0)
+            {
+                attackCooldownTimer -= Time.deltaTime;
+            }
+            Debug.Log ($"Enemy State: {EnemyState.Chasing}");
+            if (enemyState == EnemyState.Chasing)
+            {
+                Chase();
+            }
+            else if (enemyState == EnemyState.Attacking)
+            {
+                // anim.SetBool("isAttacking", true);
+                rb.linearVelocity = Vector2.zero;
+            }
         }
     }
     void Chase()
@@ -138,6 +141,7 @@ public class Enemy_Movement : MonoBehaviour
         Patrol,
         Chasing,
         Attacking,
+        KnockedBack,
         Dead
     }
 }

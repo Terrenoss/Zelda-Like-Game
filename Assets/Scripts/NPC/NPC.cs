@@ -1,8 +1,9 @@
+using Interact;
 using UnityEngine;
 using TMPro;
 using System.Collections;
 
-public class NPC : MonoBehaviour
+public class NPC : MonoBehaviour, IInteractable
 {
     public NPCDialogue dialogueData;
     public GameObject dialoguePanel;
@@ -17,14 +18,6 @@ public class NPC : MonoBehaviour
     public bool CanInteract()
     {
         return !isDialogueActive;
-    }
-
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space) && playerNearby)
-        {
-            Interact();
-        }
     }
 
 // Seule la partie Interact() a été modifiée
@@ -64,6 +57,14 @@ public class NPC : MonoBehaviour
             }
         }
     }
+    public void ShowInteractableUI()
+    {
+        InteractIcon.SetActive(true);
+    }
+    public void HideInteractableUI()
+    {
+        InteractIcon.SetActive(false);
+    }
 
     public void NextLines()
     {
@@ -93,27 +94,6 @@ public class NPC : MonoBehaviour
         dialogueIndex = 0;
         dialoguePanel.SetActive(true);
         StartCoroutine(TypeLine());
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            // Affiche l'icône d'interaction si le joueur entre dans la zone de déclenchement
-            InteractIcon.SetActive(true);
-            playerNearby = true;
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            // Cache l'icône d'interaction si le joueur sort de la zone
-            InteractIcon.SetActive(false);
-            playerNearby = false;
-            EndDialogue();
-        }
     }
 
     IEnumerator TypeLine()

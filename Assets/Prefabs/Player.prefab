@@ -50,6 +50,8 @@ GameObject:
   - component: {fileID: 3809103653395735975}
   - component: {fileID: 1419503764483683433}
   - component: {fileID: 6514434164531590043}
+  - component: {fileID: 1245275669903852649}
+  - component: {fileID: 5263685551247585555}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -155,8 +157,8 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6206617789092748578}
-        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
+      - m_Target: {fileID: 1245275669903852649}
+        m_TargetAssemblyTypeName: PlayerInput, Assembly-CSharp
         m_MethodName: Move
         m_Mode: 0
         m_Arguments:
@@ -343,7 +345,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 511ff90e0a05de843b123193b128fbf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
   moveInput: {x: 0, y: 0, z: 0}
   playerCombat: {fileID: 6514434164531590043}
 --- !u!95 &1122273673528881653
@@ -406,8 +407,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a525220ede26074f81677550892f042, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 100
-  maxHealth: 100
 --- !u!114 &6514434164531590043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -421,10 +420,47 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackPoint: {fileID: 6928933537882809637}
-  weaponRange: 1
   enemyLayers:
     serializedVersion: 2
     m_Bits: 256
-  damage: 1
   anim: {fileID: 1122273673528881653}
-  cooldownTime: 1
+  cooldownTimer: 0
+  attackDamage: 10
+  attackSpeed: 1
+  attackRange: 1
+  weaponRange: 1
+  knockbackForce: 5
+  knockbackTime: 0.5
+  stunTime: 0.3
+--- !u!114 &1245275669903852649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7146736961282016894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0e4c663b0807c42a542cdfd49f6ddf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerMovement: {fileID: 0}
+  playerCombat: {fileID: 0}
+  playerInteract: {fileID: 0}
+--- !u!114 &5263685551247585555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7146736961282016894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1d1e1616ff64aca8bfe2e5790963e24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionDistance: 2
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 1
+  checkForInteractableDelay: 0.1

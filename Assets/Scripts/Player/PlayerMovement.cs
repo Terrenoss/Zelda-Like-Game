@@ -1,17 +1,18 @@
 using System.Collections;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 5f;
     private Rigidbody2D rb;
     [SerializeField] private Vector3 moveInput;
     private Animator animator;
     
     private bool isKnockedBack = false;
     
-    public Player_Combat playerCombat;
+    public PlayerCombat playerCombat;
+    
+    [Header("Movement Stats")]
+    public float moveSpeed = 5f;
     
     void Start()
     {
@@ -28,27 +29,19 @@ public class PlayerMovement : MonoBehaviour
             rb.linearVelocity = moveInput * moveSpeed;
         }
     }
-    
-    public void Attack(InputAction.CallbackContext context)
-    {
-        if (context.performed)
-        {
-            playerCombat.Attack();
-        }
-    }
 
-    public void Move(InputAction.CallbackContext context)
+    public void Move(Vector2 direction)
     {
         animator.SetBool("isWalking", true);
-
-        if (context.canceled)
+        
+        if (direction == Vector2.zero)
         {
             animator.SetBool("isWalking", false);
             animator.SetFloat("LastInputX", moveInput.x);
             animator.SetFloat("LastInputY", moveInput.y);
         }
         
-        moveInput = context.ReadValue<Vector2>();
+        moveInput = direction;
         
         animator.SetFloat("InputX", moveInput.x);
         animator.SetFloat("InputY", moveInput.y);
